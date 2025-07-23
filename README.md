@@ -6,15 +6,15 @@
 2. Run `npm install`
 3. Create a `.env` file with the following variables:
 
-MONGO_URI=<your-mongodb-connection-string>
+MONGO_URI= your-mongodb-connection-string
 
-JWT_SECRET=<your-jwt-secret-key>
+JWT_SECRET= your-jwt-secret-key
 
-JWT_EXPIRE=30d
+JWT_EXPIRE= 1d
 
-OTP_EXPIRE_MINUTES=10
+OTP_EXPIRE_MINUTES= 5
 
-PORT=5000
+PORT= 5000
 
 text
 4. Run MongoDB server locally or provide connection string
