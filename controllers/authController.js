@@ -2,7 +2,7 @@ const { User } = require('../models/User');
 const { signToken, verifyToken } = require('../config/jwt');
 const { AppError } = require('../utils/appError');
 const otpGenerator = require('otp-generator');
-const validator = 'validator';
+const validator = require('validator');
 const { sendOTP } = require('../utils/email');
 
 const generateOTP = () => {
